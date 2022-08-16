@@ -1,2 +1,1 @@
-# AnyManagerSDK
-Hello 
+
