@@ -1,0 +1,60 @@
+{
+  "originHash" : "fb8233b014f99164416ccb9dc68ae1fe904400be927e3534920256c8796c1b76",
+  "pins" : [
+    {
+      "identity" : "googlemobileadsmediationfyber",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AnyMindG/GoogleMobileAdsMediationFyber.git",
+      "state" : {
+        "revision" : "93ed4440611efc09711e981043bd2a39a46ae9bd",
+        "version" : "1.3.0"
+      }
+    },
+    {
+      "identity" : "googlemobileadsmediationinmobi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AnyMindG/GoogleMobileAdsMediationInMobi.git",
+      "state" : {
+        "revision" : "487a1885c0a3034769a3d7737f170c8ec9dc00d9",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "iasdkcore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AnyMindG/IASDKCore.git",
+      "state" : {
+        "revision" : "2fdd544d9a4dbc2fd6b1aeeaaa989c24267429f7",
+        "version" : "1.3.0"
+      }
+    },
+    {
+      "identity" : "inmobiadsdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AnyMindG/InMobiAdSDK.git",
+      "state" : {
+        "revision" : "46276486eb4285a57cf397297a95eed55af4fc0d",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "swift-package-manager-google-mobile-ads",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
+      "state" : {
+        "revision" : "7778cc1ab037c10dbbe026959e51e616bd961be9",
+        "version" : "11.13.0"
+      }
+    },
+    {
+      "identity" : "swift-package-manager-google-user-messaging-platform",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git",
+      "state" : {
+        "revision" : "708a282840c2171ee63bd93b87afa49fe507d70e",
+        "version" : "2.7.0"
+      }
+    }
+  ],
+  "version" : 3
+}
