@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// v1.4.0
+// v1.5.0
 let package = Package(
     name: "AnyManagerSDK",
     platforms: [.iOS(.v12)],
@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/AnyMindG/AdSDKs.git", from: "1.2.0"),
         .package(url: "https://github.com/AnyMindG/OguryMediationGoogleMobileAds.git", from: "1.0.0"),
-        .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationMintegral.git", from: "1.0.0"),
+        .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationMintegral.git", from: "1.1.0"),
         .package(url: "https://github.com/AnyMindG/IASDKCore.git", from: "1.3.0"),
         .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationFyber.git", from: "1.3.0"),
         .package(url: "https://github.com/AnyMindG/InMobiAdSDK.git", from: "1.1.0"),

@@ -1,5 +1,5 @@
 {
-  "originHash" : "ac6cb5a6be66f096485b084c60c5797a5229190ac7f473d327678cd621ccecba",
+  "originHash" : "c2c847d80c2d37eeabcc2a8a0421b240f4be251cb3e4e43ca918c59efe2c1c4c",
   "pins" : [
     {
       "identity" : "adsdks",
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AnyMindG/GoogleMobileAdsMediationMintegral.git",
       "state" : {
-        "revision" : "2f4f872499dc8a09063948d187042ec71f91e1f2",
-        "version" : "1.0.0"
+        "revision" : "df3441186c5b30b645b8c2ac4427894f86d78b68",
+        "version" : "1.1.0"
       }
     },
     {
