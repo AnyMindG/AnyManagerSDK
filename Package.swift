@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// v1.0.0
+// v1.3.0
 let package = Package(
     name: "AnyManagerSDK",
     platforms: [.iOS(.v12)],
@@ -14,7 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AnyMindG/AdSDKs.git", from: "1.0.0"),
+        .package(url: "https://github.com/AnyMindG/AdSDKs.git", from: "1.2.0"),
         .package(url: "https://github.com/AnyMindG/OguryMediationGoogleMobileAds.git", from: "1.0.0"),
         .package(url: "https://github.com/AnyMindG/IASDKCore.git", from: "1.3.0"),
         .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationFyber.git", from: "1.3.0"),
@@ -26,6 +26,14 @@ let package = Package(
         .target(
             name: "AnyManagerSDK",
             dependencies: [
+                .product(name: "MTGSDK", package: "AdSDKs"),
+                .product(name: "MTGSDKBanner", package: "AdSDKs"),
+                .product(name: "MTGSDKBidding", package: "AdSDKs"),
+                .product(name: "MTGSDKInterstitialVideo", package: "AdSDKs"),
+                .product(name: "MTGSDKNativeAdvanced", package: "AdSDKs"),
+                .product(name: "MTGSDKNewInterstitial", package: "AdSDKs"),
+                .product(name: "MTGSDKReward", package: "AdSDKs"),
+                .product(name: "MTGSDKSplash", package: "AdSDKs"),
                 .product(name: "OguryAds", package: "AdSDKs"),
                 .product(name: "OMSDK_Ogury", package: "AdSDKs"),
                 .product(name: "OguryCore", package: "AdSDKs"),
