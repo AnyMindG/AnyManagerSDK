@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// v1.9.0
+// v1.10.0
 let package = Package(
     name: "AnyManagerSDK",
     platforms: [.iOS(.v12)],
