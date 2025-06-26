@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// v1.13.0
+// v1.14.0
 let package = Package(
     name: "AnyManagerSDK",
     platforms: [.iOS(.v12)],
@@ -14,7 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AnyMindG/AdSDKs.git", from: "1.8.0"),
+        .package(url: "https://github.com/AnyMindG/AdSDKs.git", from: "1.9.0"),
         .package(url: "https://github.com/AnyMindG/OguryMediationGoogleMobileAds.git", from: "1.0.0"),
         .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationMintegral.git", from: "1.1.0"),
         .package(url: "https://github.com/AnyMindG/IASDKCore.git", from: "1.3.0"),
@@ -50,6 +50,7 @@ let package = Package(
                 
                 .product(name: "ChartboostSDK", package: "AdSDKs"),
                 .product(name: "GoogleMobileAdsMediationChartboost", package: "AdSDKs"),
+                .product(name: "ChartboostSDKResources", package: "AdSDKs"),
                 
                 .product(name: "IASDKCore", package: "IASDKCore"),
                 .product(name: "GoogleMobileAdsMediationFyber", package: "GoogleMobileAdsMediationFyber"),
@@ -59,6 +60,10 @@ let package = Package(
                 
                 .product(name: "UnityAds", package: "AdSDKs"),
                 .product(name: "GoogleMobileAdsMediationUnity", package: "AdSDKs"),
+                
+                .product(name: "PAGAdSDK", package: "AdSDKs"),
+                .product(name: "GoogleMobileAdsMediationPangle", package: "AdSDKs"),
+                .product(name: "PAGAdSDKResources", package: "AdSDKs"),
                 
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
                 ],
