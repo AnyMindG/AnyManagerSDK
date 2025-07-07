@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// v1.17.0
+// v1.18.0
 let package = Package(
     name: "AnyManagerSDK",
     platforms: [.iOS(.v12)],
@@ -14,9 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AnyMindG/AdSDKs.git", from: "1.12.0"),
-        .package(url: "https://github.com/AnyMindG/IASDKCore.git", from: "1.3.0"),
-        .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationFyber.git", from: "1.3.0"),
+        .package(url: "https://github.com/AnyMindG/AdSDKs.git", from: "1.13.0"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "11.13.0"),
         
     ],
@@ -27,8 +25,8 @@ let package = Package(
                 .product(name: "AnyManagerMediation", package: "AdSDKs"),
                 .product(name: "AppLovinSDK", package: "AdSDKs"),
                 .product(name: "GoogleMobileAdsMediationAppLovin", package: "AdSDKs"),
-                .product(name: "IASDKCore", package: "IASDKCore"),
-                .product(name: "GoogleMobileAdsMediationFyber", package: "GoogleMobileAdsMediationFyber"),
+                .product(name: "IASDKCore", package: "AdSDKs"),
+                .product(name: "GoogleMobileAdsMediationFyber", package: "AdSDKs"),
                 .product(name: "UnityAds", package: "AdSDKs"),
                 .product(name: "GoogleMobileAdsMediationUnity", package: "AdSDKs"),
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
