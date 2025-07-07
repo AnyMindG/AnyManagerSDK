@@ -1,13 +1,13 @@
 {
-  "originHash" : "01d66116bf0fbb2f9add75ad7a085a9c4f4437d7a90e75d81243c255f3f4c3ba",
+  "originHash" : "e7c4f2e9c179d4ba500586d83e16b3a3709d97341ff5eef632f16b537d1eee77",
   "pins" : [
     {
       "identity" : "adsdks",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AnyMindG/AdSDKs.git",
       "state" : {
-        "revision" : "d56b7b767311e26d79cb63b05599c56a76a04e94",
-        "version" : "1.11.0"
+        "revision" : "187e9a43f83a3fd08e7e392ed2fa1ab2afd954e4",
+        "version" : "1.12.0"
       }
     },
     {
@@ -20,48 +20,12 @@
       }
     },
     {
-      "identity" : "googlemobileadsmediationinmobi",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/AnyMindG/GoogleMobileAdsMediationInMobi.git",
-      "state" : {
-        "revision" : "487a1885c0a3034769a3d7737f170c8ec9dc00d9",
-        "version" : "1.2.0"
-      }
-    },
-    {
-      "identity" : "googlemobileadsmediationmintegral",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/AnyMindG/GoogleMobileAdsMediationMintegral.git",
-      "state" : {
-        "revision" : "df3441186c5b30b645b8c2ac4427894f86d78b68",
-        "version" : "1.1.0"
-      }
-    },
-    {
       "identity" : "iasdkcore",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AnyMindG/IASDKCore.git",
       "state" : {
         "revision" : "2fdd544d9a4dbc2fd6b1aeeaaa989c24267429f7",
         "version" : "1.3.0"
-      }
-    },
-    {
-      "identity" : "inmobiadsdk",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/AnyMindG/InMobiAdSDK.git",
-      "state" : {
-        "revision" : "46276486eb4285a57cf397297a95eed55af4fc0d",
-        "version" : "1.1.0"
-      }
-    },
-    {
-      "identity" : "ogurymediationgooglemobileads",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/AnyMindG/OguryMediationGoogleMobileAds.git",
-      "state" : {
-        "revision" : "7d0c8c6b193c14af5ca0a11ab34ac4ae1ac4e3d1",
-        "version" : "1.0.0"
       }
     },
     {
