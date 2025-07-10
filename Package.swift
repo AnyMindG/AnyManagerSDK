@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// v1.21.0
+// v1.22.0
 let package = Package(
   name: "AnyManagerSDK",
   platforms: [.iOS(.v13)],
@@ -64,6 +64,7 @@ let package = Package(
         .product(name: "SmaatoSDKRichMedia", package: "AdSDKs"),
         .product(name: "SmaatoSDKVideo", package: "AdSDKs"),
         .product(name: "smaato-ios-sdk-mediation-admob", package: "smaato-ios-sdk-mediation-admob"),
+        .product(name: "SASDisplayKit", package: "AdSDKs"),
         .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
       ],
       path: "Sources/SASSDKAdapters/AdMob",
