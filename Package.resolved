@@ -1,13 +1,76 @@
 {
-  "originHash" : "78b64988c285b9dc23913a545164a96172616edbe4e6bd3768411aeba6ce4c21",
+  "originHash" : "56029823c1860f7a375add87afe2bfe0be5f3bc5c81ab87f9572133667af7c36",
   "pins" : [
     {
       "identity" : "adsdks",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AnyMindG/AdSDKs.git",
       "state" : {
-        "revision" : "f3c6496d8d852b196807c8e05df60f65fe29f1a8",
-        "version" : "1.13.0"
+        "revision" : "5fddfbca4b823d1b35a3a6ce7903406c6183da42",
+        "version" : "1.14.0"
+      }
+    },
+    {
+      "identity" : "googlemobileadsmediationfyber",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AnyMindG/GoogleMobileAdsMediationFyber.git",
+      "state" : {
+        "revision" : "93ed4440611efc09711e981043bd2a39a46ae9bd",
+        "version" : "1.3.0"
+      }
+    },
+    {
+      "identity" : "googlemobileadsmediationinmobi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AnyMindG/GoogleMobileAdsMediationInMobi.git",
+      "state" : {
+        "revision" : "487a1885c0a3034769a3d7737f170c8ec9dc00d9",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "googlemobileadsmediationmintegral",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AnyMindG/GoogleMobileAdsMediationMintegral.git",
+      "state" : {
+        "revision" : "df3441186c5b30b645b8c2ac4427894f86d78b68",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "iasdkcore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AnyMindG/IASDKCore.git",
+      "state" : {
+        "revision" : "2fdd544d9a4dbc2fd6b1aeeaaa989c24267429f7",
+        "version" : "1.3.0"
+      }
+    },
+    {
+      "identity" : "inmobiadsdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AnyMindG/InMobiAdSDK.git",
+      "state" : {
+        "revision" : "46276486eb4285a57cf397297a95eed55af4fc0d",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "ogurymediationgooglemobileads",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AnyMindG/OguryMediationGoogleMobileAds.git",
+      "state" : {
+        "revision" : "7d0c8c6b193c14af5ca0a11ab34ac4ae1ac4e3d1",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "smaato-ios-sdk-mediation-admob",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AnyMindG/smaato-ios-sdk-mediation-admob.git",
+      "state" : {
+        "revision" : "2ef01ee5826658262d9be60c430a015d6335ca12",
+        "version" : "1.2.0"
       }
     },
     {
