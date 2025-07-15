@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// v1.27.0
+// v1.28.0
 let package = Package(
   name: "AnyManagerSDK",
   platforms: [.iOS(.v13)],
@@ -14,7 +14,7 @@ let package = Package(
     ),
   ],
   dependencies: [
-    .package(url: "https://github.com/AnyMindG/AdSDKs.git", from: "1.19.0"),
+    .package(url: "https://github.com/AnyMindG/AdSDKs.git", from: "1.20.0"),
     .package(url: "https://github.com/AnyMindG/OguryMediationGoogleMobileAds.git", from: "1.0.0"),
     .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationMintegral.git", from: "1.1.0"),
     .package(url: "https://github.com/AnyMindG/IASDKCore.git", from: "1.3.0"),
@@ -69,8 +69,8 @@ let package = Package(
         .product(name: "GoogleMobileAdsMediationFacebook", package: "AdSDKs"),
         .product(name: "AmazonPublisherServicesSDK", package: "AdSDKs"),
         .product(name: "AmazonPublisherServicesAdMobAdapter", package: "AdSDKs"),
-        .product(name: "FiveAd", package: "AdSDKs"),
-        .product(name: "GoogleMobileAdsMediationLine", package: "AdSDKs"),
+//        .product(name: "FiveAd", package: "AdSDKs"),
+//        .product(name: "GoogleMobileAdsMediationLine", package: "AdSDKs"),
         .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
       ],
       path: "Sources/SASSDKAdapters/AdMob",
