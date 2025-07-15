@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// v1.23.0
+// v1.24.0
 let package = Package(
   name: "AnyManagerSDK",
   platforms: [.iOS(.v13)],
@@ -14,7 +14,7 @@ let package = Package(
     ),
   ],
   dependencies: [
-    .package(url: "https://github.com/AnyMindG/AdSDKs.git", from: "1.17.0"),
+    .package(url: "https://github.com/AnyMindG/AdSDKs.git", from: "1.18.0"),
     .package(url: "https://github.com/AnyMindG/OguryMediationGoogleMobileAds.git", from: "1.0.0"),
     .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationMintegral.git", from: "1.1.0"),
     .package(url: "https://github.com/AnyMindG/IASDKCore.git", from: "1.3.0"),
@@ -65,15 +65,20 @@ let package = Package(
         .product(name: "SmaatoSDKVideo", package: "AdSDKs"),
         .product(name: "smaato-ios-sdk-mediation-admob", package: "smaato-ios-sdk-mediation-admob"),
         .product(name: "SASDisplayKit", package: "AdSDKs"),
-        .product(name: "PAGAdSDK", package: "AdSDKs"),
-        .product(name: "GoogleMobileAdsMediationPangle", package: "AdSDKs"),
+        .product(name: "FBAudienceNetwork", package: "AdSDKs"),
+        .product(name: "GoogleMobileAdsMediationFacebook", package: "AdSDKs"),
+        .product(name: "AmazonPublisherServicesSDK", package: "AdSDKs"),
+        .product(name: "AmazonPublisherServicesAdMobAdapter", package: "AdSDKs"),
+        .product(name: "FiveAd", package: "AdSDKs"),
+        .product(name: "GoogleMobileAdsMediationLine", package: "AdSDKs"),
         .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
       ],
       path: "Sources/SASSDKAdapters/AdMob",
-      resources: [
-        .process("../../Resources/PAGAdSDK")
+      publicHeadersPath: "include",
+      cSettings: [
+          .headerSearchPath("include"),              // ✅ Look inside include/
+          .headerSearchPath("include/Facebook")      // ✅ Look inside include/Facebook/
         ],
-      publicHeadersPath: "",
       
       linkerSettings: [
         .linkedFramework("WebKit"),
@@ -89,6 +94,7 @@ let package = Package(
         .linkedFramework("CFNetwork"),
         .linkedFramework("MediaPlayer"),
         .linkedFramework("QuartzCore"),
+        .linkedLibrary("bz2") // ✅ Add this line
       ]
     ),
     .testTarget(
