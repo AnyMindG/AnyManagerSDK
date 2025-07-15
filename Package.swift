@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// v1.24.0
+// v1.25.0
 let package = Package(
   name: "AnyManagerSDK",
   platforms: [.iOS(.v13)],
@@ -74,11 +74,7 @@ let package = Package(
         .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
       ],
       path: "Sources/SASSDKAdapters/AdMob",
-      publicHeadersPath: "include",
-      cSettings: [
-          .headerSearchPath("include"),              // ✅ Look inside include/
-          .headerSearchPath("include/Facebook")      // ✅ Look inside include/Facebook/
-        ],
+      publicHeadersPath: "",
       
       linkerSettings: [
         .linkedFramework("WebKit"),
