@@ -1,13 +1,13 @@
 {
-  "originHash" : "c220dd1b25385f71d36bdbb968e2b441354b1d85714e45ec7b63d6226c6326bf",
+  "originHash" : "b01d3b774620f31222a7c18c1e8d77c8b8748c677e0c2afacbcc84bca9f4d791",
   "pins" : [
     {
       "identity" : "adsdks",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AnyMindG/AdSDKs.git",
       "state" : {
-        "revision" : "cfc5c0f44dbdf2f637652d75c102d924f3ac7f9d",
-        "version" : "1.20.0"
+        "revision" : "cd4a9ee07773fba9ac1fc280061fe03400e8000d",
+        "version" : "1.21.0"
       }
     },
     {
