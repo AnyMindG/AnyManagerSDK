@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// v1.34.0
+// v1.35.0
 let package = Package(
   name: "AnyManagerSDK",
   platforms: [.iOS(.v13)],
@@ -14,7 +14,7 @@ let package = Package(
     ),
   ],
   dependencies: [
-    .package(url: "https://github.com/AnyMindG/AdSDKs.git", from: "1.25.0"),
+    .package(url: "https://github.com/AnyMindG/AdSDKs.git", from: "1.26.0"),
     .package(url: "https://github.com/AnyMindG/OguryMediationGoogleMobileAds.git", from: "1.0.0"),
     .package(url: "https://github.com/AnyMindG/GoogleMobileAdsMediationMintegral.git", from: "1.1.0"),
     .package(url: "https://github.com/AnyMindG/IASDKCore.git", from: "1.3.0"),
@@ -71,8 +71,10 @@ let package = Package(
         .product(name: "AmazonPublisherServicesAdMobAdapter", package: "AdSDKs"),
 //        .product(name: "FiveAd", package: "AdSDKs"),
 //        .product(name: "GoogleMobileAdsMediationLine", package: "AdSDKs"),
-        .product(name: "BigoADS", package: "AdSDKs"),
-        .product(name: "bigo-ads-admob-adapter", package: "AdSDKs"),
+//        .product(name: "BigoADS", package: "AdSDKs"),
+//        .product(name: "bigo-ads-admob-adapter", package: "AdSDKs"),
+        .product(name: "IronSource", package: "AdSDKs"),
+        .product(name: "GoogleMobileAdsMediationIronSource", package: "AdSDKs"),
         .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
       ],
       path: "Sources/SASSDKAdapters/AdMob",
@@ -92,7 +94,7 @@ let package = Package(
         .linkedFramework("CFNetwork"),
         .linkedFramework("MediaPlayer"),
         .linkedFramework("QuartzCore"),
-        .linkedLibrary("bz2") // ✅ Add this line
+        .linkedLibrary("bz2") 
       ]
     ),
     .testTarget(
